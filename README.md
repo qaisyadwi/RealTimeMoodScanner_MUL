@@ -1,5 +1,4 @@
-# Judul Proyek  
-RealTimeMoodScanner 
+# RealTimeMoodScanner 
 
 ## Anggota Kelompok  
 | No | Nama                              | NIM          |  
