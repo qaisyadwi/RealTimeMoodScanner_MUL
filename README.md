@@ -12,17 +12,17 @@ Proyek Real-Time Mood Scanner adalah filter yang mendeteksi ekspresi wajah pengg
 
 
 ## Logsheet
-| No   | Tanggal       | Nama Anggota       | Aktivitas yang Dilakukan                   | Waktu Mulai | Waktu Selesai | Keterangan                  |  
-|------|---------------|--------------------|--------------------------------------------|-------------|---------------|-----------------------------|  
-| 1    |               |                    |                                            |             |               |                             |  
-| 3    |               |                    |                                            |             |               |                             |    
-| 4    |               |                    |                                            |             |               |                             |  
-| 5    |               |                    |                                            |             |               |                             |  
-| 6    |               |                    |                                            |             |               |                             |  
-| 7    |               |                    |                                            |             |               |                             |  
-| 8    |               |                    |                                            |             |               |                             |  
-| 9    |               |                    |                                            |             |               |                             |  
-| 10   |               |                    |                                            |             |               |                             |  
+| No   | Tanggal       | Nama Anggota       | Aktivitas yang Dilakukan                   | Durasi      |  Keterangan                  |  
+|------|---------------|--------------------|--------------------------------------------|-------------|------------------------------|
+| 1    |               |                    |                                            |             |                              |                             
+| 3    |               |                    |                                            |             |                              |                               
+| 4    |               |                    |                                            |             |                              |                               
+| 5    |               |                    |                                            |             |                              |                             
+| 6    |               |                    |                                            |             |                              |                               
+| 7    |               |                    |                                            |             |                              |                               
+| 8    |               |                    |                                            |             |                              |                               
+| 9    |               |                    |                                            |             |                              |                              
+| 10   |               |                    |                                            |             |                              |                               
 
 ***
 ## Catatan Umum  
