@@ -1,4 +1,4 @@
-# RealTimeMoodScanner 
+# 🌟 Real-Time Mood Scanner 🌟
 
 ## Anggota Kelompok  
 | No | Nama                              | NIM          |  
