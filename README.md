@@ -7,11 +7,11 @@
 | 2  | Qaisya Dwi Aryana                 | 121140063    |  
 | 3  | Marsella Yesi Natalia Sinaga      | 121140174    |  
 
-## Deskripsi Singkat  
+## 📝Deskripsi Singkat  
 Proyek Real-Time Mood Scanner adalah filter yang mendeteksi ekspresi wajah pengguna secara real-time menggunakan Mediapipe dan OpenCV.  Berdasarkan ekspresi (senyum, sedih, kaget, atau netral), filter menampilkan visual interaktif seperti animasi bunga, hujan, petir, atau perubahan latar belakang lainnya.  Sistem ini bekerja dengan mendeteksi landmark wajah melalui Mediapipe, lalu menampilkan efek visual yang sesuai secara real-time menggunakan OpenCV.  
 
 
-## Logsheet
+## 👥Logsheet
 | No   | Tanggal       | Nama Anggota       | Aktivitas yang Dilakukan                   | Durasi      |  Keterangan                  |  
 |------|---------------|--------------------|--------------------------------------------|-------------|------------------------------|
 | 1    |               |                    |                                            |             |                              |                             
