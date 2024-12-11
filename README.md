@@ -10,3 +10,20 @@
 ## Deskripsi Singkat  
 Proyek Real-Time Mood Scanner adalah filter yang mendeteksi ekspresi wajah pengguna secara real-time menggunakan Mediapipe dan OpenCV.  Berdasarkan ekspresi (senyum, sedih, kaget, atau netral), filter menampilkan visual interaktif seperti animasi bunga, hujan, petir, atau perubahan latar belakang lainnya.  Sistem ini bekerja dengan mendeteksi landmark wajah melalui Mediapipe, lalu menampilkan efek visual yang sesuai secara real-time menggunakan OpenCV.  
 
+
+## Logsheet
+| No   | Tanggal       | Nama Anggota       | Aktivitas yang Dilakukan                   | Waktu Mulai | Waktu Selesai | Keterangan                  |  
+|------|---------------|--------------------|--------------------------------------------|-------------|---------------|-----------------------------|  
+| 1    |               |                    |                                            |             |               |                             |  
+| 3    |               |                    |                                            |             |               |                             |    
+| 4    |               |                    |                                            |             |               |                             |  
+| 5    |               |                    |                                            |             |               |                             |  
+| 6    |               |                    |                                            |             |               |                             |  
+| 7    |               |                    |                                            |             |               |                             |  
+| 8    |               |                    |                                            |             |               |                             |  
+| 9    |               |                    |                                            |             |               |                             |  
+| 10   |               |                    |                                            |             |               |                             |  
+
+***
+## Catatan Umum  
+
