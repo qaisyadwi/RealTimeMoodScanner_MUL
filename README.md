@@ -14,7 +14,7 @@ Proyek Real-Time Mood Scanner adalah filter yang mendeteksi ekspresi wajah pengg
 ## 📋Logbook Mingguan
 ## Logbook Mingguan
 
-| Minggu  | Progress                                                                                     | Pembaruan                                                       |
+| Minggu  | Progress                                                                                     | Update project                                                       |
 |---------|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | **Minggu 1** | Membuat file `main.py` sebagai skrip utama untuk menjalankan aplikasi.                    | Fitur dasar seperti pengaturan proyek awal dan antarmuka awal selesai. |
 | **Minggu 2** | Membuat file `datagen.py` untuk menghasilkan data pelatihan, dan file `data.csv` untuk menyimpan data yang dihasilkan. | Dataset awal berhasil dibuat dan siap digunakan untuk pengujian. |
