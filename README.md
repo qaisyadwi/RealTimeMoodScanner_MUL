@@ -25,5 +25,5 @@ Proyek Real-Time Mood Scanner adalah filter yang mendeteksi ekspresi wajah pengg
 | 10   |               |                    |                                            |             |                              |                               
 
 ***
-## Catatan Umum  
+## Instruksi instalasi dan penggunaan program 
 
