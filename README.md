@@ -12,17 +12,13 @@ Proyek Real-Time Mood Scanner adalah filter yang mendeteksi ekspresi wajah pengg
 
 
 ## 📋Logbook Mingguan
-| No   | Tanggal       |Nama Anggota        | Aktivitas yang Dilakukan                   | Durasi      |  Keterangan                  |  
-|------|---------------|--------------------|--------------------------------------------|-------------|------------------------------|
-| 1    |               |                    |                                            |             |                              |                             
-| 3    |               |                    |                                            |             |                              |                               
-| 4    |               |                    |                                            |             |                              |                               
-| 5    |               |                    |                                            |             |                              |                             
-| 6    |               |                    |                                            |             |                              |                               
-| 7    |               |                    |                                            |             |                              |                               
-| 8    |               |                    |                                            |             |                              |                               
-| 9    |               |                    |                                            |             |                              |                              
-| 10   |               |                    |                                            |             |                              |                               
+## Logbook Mingguan
+
+| Minggu  | Progress                                                                                     | Pembaruan                                                       |
+|---------|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| **Minggu 1** | Membuat file `main.py` sebagai skrip utama untuk menjalankan aplikasi.                    | Fitur dasar seperti pengaturan proyek awal dan antarmuka awal selesai. |
+| **Minggu 2** | Membuat file `datagen.py` untuk menghasilkan data pelatihan, dan file `data.csv` untuk menyimpan data yang dihasilkan. | Dataset awal berhasil dibuat dan siap digunakan untuk pengujian. |
+                                                              
 
 
 ## **Instruksi Instalasi**
