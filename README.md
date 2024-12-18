@@ -24,6 +24,48 @@ Proyek Real-Time Mood Scanner adalah filter yang mendeteksi ekspresi wajah pengg
 | 9    |               |                    |                                            |             |                              |                              
 | 10   |               |                    |                                            |             |                              |                               
 
-***
-## Instruksi instalasi dan penggunaan program 
+
+## **Instruksi Instalasi**
+
+### **Prasyarat**
+- Python versi 3.8 atau lebih baru.
+- Webcam (untuk deteksi real-time).
+
+### **Langkah Instalasi**
+
+1. **Kloning Repositori**
+   ```bash
+   git clone https://github.com/qaisyadwi/RealTimeMoodScanner_MUL.git
+   ```
+
+2. **Masuk ke Direktori Proyek**
+   ```bash
+   cd RealTimeMoodScanner_MUL
+   ```
+
+3. **Buat Virtual Environment**
+   ```bash
+   python -m venv env
+   source env/bin/activate  # Untuk Linux/MacOS
+   env\Scripts\activate    # Untuk Windows
+   ```
+
+4. **Instal Dependensi**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Siapkan Dataset**
+   - Tempatkan dataset dalam folder `data/`.
+   - Jalankan script pra-pemrosesan jika diperlukan:
+     ```bash
+     python preprocess.py
+     ```
+
+6. **Konfigurasi File**
+   - Sesuaikan `config.json` untuk parameter model dan direktori dataset.
+
+---
+
+## **Penggunaan Program**
 
