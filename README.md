@@ -24,45 +24,89 @@ Proyek Real-Time Mood Scanner adalah filter yang mendeteksi ekspresi wajah pengg
 
 ## **Instruksi Instalasi**
 
-### **Prasyarat**
-- Python versi 3.8 atau lebih baru.
-- Webcam (untuk deteksi real-time).
-
 ### **Langkah Instalasi**
 
-1. **Kloning Repositori**
+Berikut revisi langkah instalasi dengan penambahan tautan untuk unduh data pada nomor 3:  
+
+---
+
+1. **Kloning Repositori**  
    ```bash
    git clone https://github.com/qaisyadwi/RealTimeMoodScanner_MUL.git
    ```
 
-2. **Masuk ke Direktori Proyek**
-   ```bash
-   cd RealTimeMoodScanner_MUL
-   ```
-
-3. **Buat Virtual Environment**
+2. **(Opsional) Buat Virtual Environment**  
+   Langkah ini direkomendasikan untuk menjaga dependensi proyek tetap terisolasi.  
    ```bash
    python -m venv env
-   source env/bin/activate  # Untuk Linux/MacOS
-   env\Scripts\activate    # Untuk Windows
+   source env/bin/activate  # Untuk Linux/MacOS  
+   env\Scripts\activate    # Untuk Windows  
    ```
 
-4. **Instal Dependensi**
+3. **Unduh Background dan Siapkan File Video**  
+   - Unduh background dan file video dari tautan berikut:  
+     [Unduh data](https://drive.google.com/drive/folders/1NZr_wdj6qoDXZjH7Wx_QERgHH23408bc?usp=sharing)  
+   - Masukkan file background ke dalam folder `data`.  
+   - Masukkan file berikut ke dalam folder lokal:  
+     - `kaget.mp4`  
+     - `marah.mp4`  
+     - `senang.mp4`  
+
+4. **Instal Dependensi**  
+   Instal semua pustaka yang diperlukan:  
    ```bash
    pip install -r requirements.txt
    ```
 
-5. **Siapkan Dataset**
-   - Tempatkan dataset dalam folder `data/`.
-   - Jalankan script pra-pemrosesan jika diperlukan:
-     ```bash
-     python preprocess.py
-     ```
+5. **Jalankan `datagen.py` untuk Persiapan Dataset**  
+   Skrip `datagen.py` digunakan untuk mempersiapkan dataset yang akan digunakan dalam pelatihan model. Pastikan file dataset yang relevan tersedia atau diatur sesuai kebutuhan. Jalankan perintah:  
+   ```bash
+   python datagen.py
+   ```
 
-6. **Konfigurasi File**
-   - Sesuaikan `config.json` untuk parameter model dan direktori dataset.
+6. **Jalankan `training.py` untuk Melatih Model**  
+   Skrip `training.py` akan digunakan untuk melatih model berdasarkan dataset yang telah disiapkan. Jalankan perintah:  
+   ```bash
+   python training.py
+   ```
+
+7. **Jalankan `main.py` untuk Menjalankan Aplikasi**  
+   Skrip `main.py` berfungsi sebagai program utama untuk menjalankan aplikasi Real-Time Mood Scanner. Jalankan perintah:  
+   ```bash
+   python main.py
+   ```
 
 ---
 
 ## **Penggunaan Program**
 
+Setelah instalasi selesai, berikut cara menggunakan **Real-Time Mood Scanner**:  
+
+1. **Buka Terminal**  
+   Arahkan terminal ke direktori proyek, jika belum berada di sana:  
+   ```bash
+   cd RealTimeMoodScanner_MUL
+   ```
+
+2. **Aktifkan Virtual Environment (Jika Digunakan)**  
+   ```bash
+   source env/bin/activate  # Untuk Linux/MacOS  
+   env\Scripts\activate     # Untuk Windows  
+   ```
+
+3. **Jalankan Aplikasi**  
+   Jalankan skrip utama untuk memulai aplikasi:  
+   ```bash
+   python main.py
+   ```
+
+4. **Antarmuka Aplikasi**  
+   - Aplikasi akan menampilkan antarmuka kamera real-time.  
+   - Pastikan kamera perangkat berfungsi.  
+
+5. **Deteksi Mood**  
+   - Arahkan wajah ke kamera, dan aplikasi akan memindai ekspresi wajah.  
+   - Sistem akan menampilkan hasil prediksi mood seperti *senang*, *marah*, atau *kaget*.  
+
+6. **Berhenti Menggunakan Aplikasi**  
+   - Untuk menghentikan aplikasi, cukup tekan `Ctrl + C` di terminal.  
