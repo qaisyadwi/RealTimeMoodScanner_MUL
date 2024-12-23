@@ -8,8 +8,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 import pickle
 
-
-
 df = pd.read_csv('data.csv')
 
 print(df.head())
@@ -20,7 +18,7 @@ print(df.describe())
 
 df = df.dropna()
 
-features = df.drop('Class',axis=1)
+features = df.drop('Class', axis=1)
 labels = df['Class']
 
 
@@ -45,9 +43,9 @@ predictions = pipeline.predict(X_test)
 # Evaluate the model
 yhat = pipeline.predict(X_test)
 print(yhat)
-model_performance = classification_report(y_test,yhat)
+model_performance = classification_report(y_test, yhat)
 print(f"Model Report: {model_performance}")
 
 model_name = 'model.pkl'
-with open(model_name,'wb')as f:
-    pickle.dump(pipeline,f)
+with open(model_name, 'wb')as f:
+    pickle.dump(pipeline, f)
