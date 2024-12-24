@@ -46,7 +46,7 @@ Berikut revisi langkah instalasi dengan penambahan tautan untuk unduh data pada 
 3. **Unduh Background dan Siapkan File Video**  
    - Unduh background dan file video dari tautan berikut:  
      [Unduh data](https://drive.google.com/drive/folders/1NZr_wdj6qoDXZjH7Wx_QERgHH23408bc?usp=sharing)  
-   - Masukkan file background ke dalam folder `data`.  
+   - Masukkan file di folder data ke folder RealTimeMoodScanner_MUL
 
 4. **Instal Dependensi**  
    Instal semua pustaka yang diperlukan:  
@@ -103,6 +103,3 @@ Setelah instalasi selesai, berikut cara menggunakan **Real-Time Mood Scanner**:
 5. **Deteksi Mood**  
    - Arahkan wajah ke kamera, dan aplikasi akan memindai ekspresi wajah.  
    - Sistem akan menampilkan hasil prediksi mood seperti *senang*, *marah*, atau *kaget*.  
-
-6. **Berhenti Menggunakan Aplikasi**  
-   - Untuk menghentikan aplikasi, cukup tekan `Ctrl + C` di terminal.  
