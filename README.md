@@ -102,4 +102,4 @@ Setelah instalasi selesai, berikut cara menggunakan **Real-Time Mood Scanner**:
 
 5. **Deteksi Mood**  
    - Arahkan wajah ke kamera, dan aplikasi akan memindai ekspresi wajah.  
-   - Sistem akan menampilkan hasil prediksi mood seperti *senang*, *marah*, atau *kaget*.  
+   - Sistem akan menampilkan hasil prediksi mood seperti *senang*, *sedih*, atau *kaget*.  
