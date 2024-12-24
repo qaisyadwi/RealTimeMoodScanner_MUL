@@ -47,10 +47,6 @@ Berikut revisi langkah instalasi dengan penambahan tautan untuk unduh data pada 
    - Unduh background dan file video dari tautan berikut:  
      [Unduh data](https://drive.google.com/drive/folders/1NZr_wdj6qoDXZjH7Wx_QERgHH23408bc?usp=sharing)  
    - Masukkan file background ke dalam folder `data`.  
-   - Masukkan file berikut ke dalam folder lokal:  
-     - `kaget.mp4`  
-     - `marah.mp4`  
-     - `senang.mp4`  
 
 4. **Instal Dependensi**  
    Instal semua pustaka yang diperlukan:  
